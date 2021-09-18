@@ -23,9 +23,6 @@ const useFetchEvent = () => {
 			try {
 				// Simulate a fetch event
 				// await sleep(1000);
-				axios.post('/zentao/gantt').then(() => {
-					console.log(111);
-				})
 				const res = await getData()
 				console.log('res', res);
 				const data = res.data;

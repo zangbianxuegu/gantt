@@ -74,8 +74,9 @@ const GanttChart: React.FC<AppProps> = (props) => {
 		gantt.config.readonly = true;
 		gantt.config.columns = [
       {
-        name: 'text',
+        name: 'task_name',
         label: '任务名称',
+        min_width: 300,
       },
       {
         name: 'start_date',
