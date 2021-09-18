@@ -1,3 +1,4 @@
-export {
-  default
-} from './GanttContainer';
+import Gantt from './GanttContainer';
+import './Gantt.css';
+
+export default Gantt

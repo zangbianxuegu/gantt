@@ -1,12 +1,11 @@
 
 interface GanttTask {
-    id: string;
+    id: number;
     text: string;
-    start_date: Date;
-    parent?: string;
+    start_date: string;
+    parent?: number;
     duration: number;
     progress: number;
-    priority: string;
 }
 
 export default GanttTask;

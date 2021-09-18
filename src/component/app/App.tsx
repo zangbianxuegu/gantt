@@ -1,5 +1,7 @@
 import React from 'react';
-import Gantt from '../gantt';
+import Gantt from '../Gantt';
+// import '../../mock';
+import './App.css';
 
 const App: React.FC = () => {
 
