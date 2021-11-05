@@ -1,8 +1,9 @@
 import request from '../utils/request'
 
-export function getData() {
+export function getData(data: Object) {
   return request({
     url: '/zentao/gantt',
-    method: 'post'
+    method: 'post',
+    data,
   })
 }
