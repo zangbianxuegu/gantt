@@ -29,6 +29,7 @@ const GanttFilter: React.FC<AppProps> = (props) => {
       {}
     );
     gantt.refreshData();
+    gantt.render();
     return () => {
       gantt.detachEvent(onBeforeTaskDisplay);
     };
@@ -45,6 +46,7 @@ const GanttFilter: React.FC<AppProps> = (props) => {
       {}
     );
     gantt.refreshData();
+    gantt.render();
     return () => {
       gantt.detachEvent(onBeforeTaskDisplay);
     };
@@ -56,8 +58,8 @@ const GanttFilter: React.FC<AppProps> = (props) => {
   };
 
   const handleSelectChange = (value: any) => {
-    console.log(value);
     setDept(value);
+    gantt.render();
   };
 
   return (

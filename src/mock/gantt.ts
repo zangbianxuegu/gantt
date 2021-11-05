@@ -33,8 +33,9 @@ export default [
           task_name: '111',
           start_time: '2021-10-01',
           end_time: '2021-10-02',
+          duration: 2,
           assigned_to: '张三',
-          group: '前端',
+          dept: '前端',
         },
         {
           id: 2,
@@ -42,8 +43,9 @@ export default [
           task_name: '222',
           start_time: '2021-10-01',
           end_time: '2021-10-02',
+          duration: 2,
           assigned_to: 'lisi',
-          group: '后端',
+          dept: '后端',
         },
         {
           id: 3,
@@ -51,8 +53,9 @@ export default [
           task_name: '333',
           start_time: '2021-10-01',
           end_time: '2021-10-02',
+          duration: 2,
           assigned_to: 'wangwu',
-          group: '测试',
+          dept: '测试',
         },
       ]
       return {

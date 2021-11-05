@@ -30,7 +30,6 @@ const useFetchEvent = (params: Object) => {
               start_date: item.start_time,
               end_date: item.end_time,
               text: item.task_name,
-              duration: item.fate,
             };
           });
         // 树形结构
